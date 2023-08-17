@@ -51,3 +51,18 @@ body{
 .play-board .head{
     background: rgb(43, 43, 115);
 }
+
+.controls{
+    display: none;
+    justify-content: space-between;
+}
+
+.controls i{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    width: calc(100% / 4);
+    cursor: pointer;
+    border-right: 1px solid #171b26;
+}
